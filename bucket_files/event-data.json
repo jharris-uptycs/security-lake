@@ -1,0 +1,15 @@
+{
+  "RequestType": "Delete",
+  "ResponseURL": "http://pre-signed-S3-url-for-response",
+  "StackId": "arn:aws:cloudformation:us-east-1:123456789012:stack/MyStack/guid",
+  "RequestId": "unique id for this create request",
+  "ResourceType": "Custom::TestResource",
+  "LogicalResourceId": "MyTestResource",
+  "ResourceProperties": {
+    "aws_region": "us-east-1",
+    "uptycs_account_id": "235115201540",
+    "glue_arn": "arn:aws:iam::048950004707:role/service-role/AmazonSecurityLakeCustomDataGlueCrawler-Uptycs_Process_Activity",
+    "uptycs_customer_id": "3673a4d8-99d2-4d69-a784-858cdfd7fdb7",
+    "uptycs_domain": "cloudint"
+  }
+}
